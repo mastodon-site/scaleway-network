@@ -25,9 +25,3 @@ variable "vpc_name" {
   type        = string
 }
 
-variable "vpc_public_range_subnet" {
-  description = "Subnet range for the VPC public range"
-  type        = string
-  default     = "192.168.1.0/24"
-}
-
