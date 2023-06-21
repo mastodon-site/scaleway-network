@@ -1,5 +1,5 @@
 terraform {
-  backend "kubernetes" {}
+  backend "s3" {}
 }
 
 provider "scaleway" {
