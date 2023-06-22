@@ -1,5 +1,5 @@
 terraform {
-  backend "cloud" {}
+  cloud {}
 }
 
 provider "scaleway" {
