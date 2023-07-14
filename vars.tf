@@ -2,17 +2,17 @@
 ############################
 #### Scaleway variables ####
 
-variable "project_id" {
+variable "scaleway_project_id" {
   description = "Scaleway project ID"
   type        = string
 }
 
-variable "region" {
+variable "scaleway_region" {
   description = "Scaleway region ID"
   type        = string
 }
 
-variable "zone" {
+variable "scaleway_zone" {
   description = "Scaleway zone ID"
   type        = string
 }
