@@ -3,11 +3,8 @@ resource "scaleway_vpc" "vpc" {
   region = var.scaleway_region
 }
 
-resource "scaleway_vpc_private_network" "network" {
+resource "scaleway_vpc_private_network" "primary_subnet" {
   name   = var.vpc_name
   region = var.scaleway_region
   vpc_id = scaleway_vpc.vpc.id
 }
-
-# resource "scaleway_vpc_public_gateway_ip" "main" {
-# }
